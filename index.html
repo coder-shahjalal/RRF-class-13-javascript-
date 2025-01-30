@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header with a Button -->
+    <header id="mainHeader">
+      <div class="container">
+        <button id="colorChangeBtn">Change Hero Color</button>
+      </div>
+    </header>
+
+    <!-- Popup Modal -->
+    <div id="popupModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" id="closePopup">&times;</span>
+        <img id="popupMessage" src="https://i.redd.it/bbjuzuj5knr81.jpg"></img>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="heroSection">
+      <div class="container">
+        <div class="hero-wrapper">
+          <div class="hero-text">
+            <h1>
+              Grow your business with the <span>world’s #1</span> tools for
+              Joomla!
+            </h1>
+            <h3>
+              Easily build websites, landing pages, pop-ups, alert bars, and
+              beyond.
+            </h3>
+            <a href="#" class="btn" id="getStartedBtn">Get Started Now</a>
+          </div>
+          <div class="hero-img">
+            <img
+              src="https://i.ibb.co.com/fGz1Vmf/2025-01-21-23-43-20-Window.png"
+              alt="Joomla Tools Illustration"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
